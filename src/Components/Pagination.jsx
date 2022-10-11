@@ -111,7 +111,7 @@ const Pagination = ({darkMode}) => {
                   <LazyLoadImage effect="blur"
                     src={project.image}
                     alt={`${project.name} Project`}
-                    className="h-full"
+                    // className="h-full"
                   />
                 </div>
                 <div className="">
