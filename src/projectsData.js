@@ -1,11 +1,73 @@
 export const DATA = [
   {
-    id: 1,
-    name: "Space Tourism Website",
-    image: "images/Projects/Project-space.jpg",
-    link: "https://rahmlad-aramide.github.io/Space-tourism-website/",
-    detail:
-      " Practice they say makes perfection, took this project up as a challenge from Frontend Mentor to put my HTML CSS JavaScript skills to test if you're interested in doing the same, head to Frontend Mentor",
+    id: 15,
+    name: "Alt Meet",
+    image: "images/Projects/Project Altmeet.png",
+    link: "https://alt-exam.netlify.app",
+    detail: "A meeting app which was built for my friends in Altschool Africa to meet with great minds and network with great people, made use of random api database to get the people details and firebase auth for handling the authentication",
+    languages: [
+      {
+        name: "React",
+        url: "images/Assets/react-seeklogo.com.svg",
+      },
+      {
+        name: "Firebase",
+        url: "images/Assets/firebase-icon.svg",
+      },
+      {
+        name: 'Tailwind CSS',
+        url: "images/Assets/tailwind-css-seeklogo.com.svg",
+      },
+      {
+        name: "API",
+        url: "images/Assets/api.svg",
+      },
+    ]
+  },
+  {
+    id: 16,
+    name: "My personalized linktree",
+    image: "images/Projects/Project Linktree.png",
+    link: "https://task1-hng9.netlify.app",
+    detail: "A react app that was built bearing a similar feature like a linktree submitted as my HNG Internship task",
+    languages: [
+      {
+          name: "React",
+          url: "images/Assets/react-seeklogo.com.svg",
+      },
+      {
+        name: 'Tailwind CSS',
+        url: "images/Assets/tailwind-css-seeklogo.com.svg",
+      },
+    ]
+  },
+  {
+    id: 14,
+    name: "Connectify",
+    image: "images/Projects/Project Connectify.png",
+    link: "https://cra-assignment.netlify.app",
+    detail: "A react app built as a software for people to connect with each other and make friends",
+    languages: [
+      {
+          name: "React",
+          url: "images/Assets/react-seeklogo.com.svg",
+      },
+      {
+        name: 'Tailwind CSS',
+        url: "images/Assets/tailwind-css-seeklogo.com.svg",
+      },
+      {
+        name: "API",
+        url: "images/Assets/api.svg",
+      },
+    ]
+  },
+  {
+    id: 17,
+    name: "Al-Burhan Media",
+    image: "images/Projects/Project Al-Burhan.png",
+    link: "https://rahmlad-aramide.github.io/Al-Burhan/",
+    detail: "Al-Burhan Media Website, Al-Burhan Media is a fast growing muslim organisation aimed at delivering the best islamic services to all ummah. It has one of the best satellite service.",
     languages: [
       {
         name: 'HTML',
@@ -19,10 +81,91 @@ export const DATA = [
         name: 'JS',
         url: "images/Assets/javascript-js-seeklogo.com.svg",
       },
+    ]
+  },
+  {
+    id: 12,
+    name: "Digital Card",
+    image: "images/Projects/Project Digicard.jpeg",
+    link: "https://rahmlad-aramide.github.io/rahmlad-digital-card/",
+    detail: "My digital card built with React App for anyone to easily connect with me.",
+    languages: [
+      {
+        name: 'CSS',
+        url: "images/Assets/css-3-seeklogo.com.svg",
+      },
+        {
+            name: "React",
+            url: "images/Assets/react-seeklogo.com.svg",
+        },
+    ]
+  },
+  {
+    id: 5,
+    name: "Meme Generator",
+    image: "images/Projects/Project Meme.jpg",
+    link: "https://rahmlad-aramide.github.io/meme-generator/",
+    detail: "A meme generating app which was built while learning ReactJS and fetch the images from an API. As a meme lover, it'll be easier for me to create any of my own desire and also available for use by anybody.",
+    languages: [
+      {
+        name: 'CSS',
+        url: "images/Assets/css-3-seeklogo.com.svg",
+      },
+      {
+        name: 'JS',
+        url: "images/Assets/javascript-js-seeklogo.com.svg",
+      },
+      {
+        name: "React",
+        url: "images/Assets/react-seeklogo.com.svg",
+      },
+      {
+        name: "API",
+        url: "images/Assets/api.svg",
+      },
+    ]
+  },
+  {
+    id: 6,
+    name: "React JS Calculator",
+    image: "images/Projects/Project React Calc.png",
+    link: "https://rahmlad-react-calculator.netlify.app/",
+    detail: "A Calculator App which was built for making simple mathematical calculations and similar to the Tip Calculator but this can be used for all types of basic mathematical calculation built with React App",
+    languages: [
+      {
+        name: 'CSS',
+        url: "images/Assets/css-3-seeklogo.com.svg",
+      },
+      {
+        name: 'JS',
+        url: "images/Assets/javascript-js-seeklogo.com.svg",
+      },
       {
         name: "React",
         url: "images/Assets/react-seeklogo.com.svg",
     },
+    ]
+  },
+  {
+    id: 1,
+    name: "Space Tourism Website",
+    image: "images/Projects/Project-space.jpg",
+    link: "https://rahmlad-aramide.github.io/Space-tourism-website/",
+    detail:
+      "Practice they say makes perfect, took this project up as a challenge from Frontend Mentor to put my HTML CSS JavaScript skills to test if you're interested in doing the same, head to Frontend Mentor",
+    languages: [
+      {
+        name: 'HTML',
+        url: "images/Assets/html5-with-wordmark-color.svg",
+      },
+      {
+        name: 'CSS',
+        url: "images/Assets/css-3-seeklogo.com.svg",
+      },
+      {
+        name: 'JS',
+        url: "images/Assets/javascript-js-seeklogo.com.svg",
+      },
     ],
   },
   {
@@ -94,52 +237,7 @@ export const DATA = [
       },
     ]
   },
-  {
-    id: 5,
-    name: "Meme Generator",
-    image: "images/Projects/Project Meme.jpg",
-    link: "https://rahmlad-aramide.github.io/meme-generator/",
-    detail: "A meme generating app which was built while learning ReactJS and fetch the images from an API. As a meme lover, it'll be easier for me to create any of my own desire and also available for use by anybody.",
-    languages: [
-      {
-        name: 'CSS',
-        url: "images/Assets/css-3-seeklogo.com.svg",
-      },
-      {
-        name: 'JS',
-        url: "images/Assets/javascript-js-seeklogo.com.svg",
-      },
-      {
-        name: "React",
-        url: "images/Assets/react-seeklogo.com.svg",
-      },
-      {
-        name: "API",
-        url: "images/Assets/api.svg",
-    },
-    ]
-  },
-  {
-    id: 6,
-    name: "React JS Calculator",
-    image: "images/Projects/Project Calculator.jpeg",
-    link: "https://",
-    detail: "A Calculator App which was built for making simple mathematical calculations and similar to the Tip Calculator but this can be used for all types of basic mathematical calculation built with React App",
-    languages: [
-      {
-        name: 'CSS',
-        url: "images/Assets/css-3-seeklogo.com.svg",
-      },
-      {
-        name: 'JS',
-        url: "images/Assets/javascript-js-seeklogo.com.svg",
-      },
-      {
-        name: "React",
-        url: "images/Assets/react-seeklogo.com.svg",
-    },
-    ]
-  },
+
   {
     id: 7,
     name: "About Me Assignment Project",
@@ -253,23 +351,7 @@ export const DATA = [
       }
     ]
   },
-  {
-    id: 12,
-    name: "Digital Card",
-    image: "images/Projects/Project Digicard.jpeg",
-    link: "https://rahmlad-aramide.github.io/rahmlad-digital-card/",
-    detail: "My digital card built with React App for anyone to easily connect with me.",
-    languages: [
-      {
-        name: 'CSS',
-        url: "images/Assets/css-3-seeklogo.com.svg",
-      },
-        {
-            name: "React",
-            url: "images/Assets/react-seeklogo.com.svg",
-        },
-    ]
-  },
+  
   {
     id: 13,
     name: "Bankist App",

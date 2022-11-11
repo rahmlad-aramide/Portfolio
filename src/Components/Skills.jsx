@@ -87,7 +87,7 @@ const Skills = ({ darkMode }) => {
                 alt="NextJS"
               />
             </div>
-            <div className="bg-[#ffffff10] backdrop-blur p-4 m-4">
+            <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 text-center">
               <LazyLoadImage effect="blur"
                 className="hover:scale-90 transition duration-500"
                 src="./images/Assets/node-node-js-seeklogo.com.svg"
@@ -95,12 +95,28 @@ const Skills = ({ darkMode }) => {
                 alt="NodeJS"
               />
             </div>
-            <div className="bg-[#ffffff10] backdrop-blur p-4 m-4">
+            <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 text-center">
               <LazyLoadImage effect="blur"
                 className="hover:scale-90 transition duration-500"
                 src="./images/Assets/npm-node-package-manager.svg"
                 title="NPM"
                 alt="NPM"
+              />
+            </div>
+            <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 text-center">
+              <LazyLoadImage effect="blur"
+                className="hover:scale-90 transition duration-500 w-40"
+                src="./images/Assets/github.svg"
+                title="Github"
+                alt="Github"
+              />
+            </div>
+            <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 text-center">
+              <LazyLoadImage effect="blur"
+                className="hover:scale-90 transition duration-500 w-40"
+                src="./images/Assets/firebase-icon.svg"
+                title="Firebase"
+                alt="Firebase"
               />
             </div>
           </div>
