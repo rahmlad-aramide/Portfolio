@@ -1,5 +1,53 @@
 export const DATA = [
   {
+    id: 18,
+    name: "Yieldvest",
+    image: "images/Projects/Project-Yieldvest.png",
+    link: "https://yieldvest.hng.tech",
+    detail:
+      "Being the final project we delivered in my team for the current HNG Internship [HNGi9] where I led the team of Frontend Developers on the team to success as people believe that HNG Internship is not easy and challenging, we were able to make it to the final sucessfully.",
+    languages: [
+      {
+        name: "Next JS",
+        url: "images/Assets/next-js-seeklogo.com.svg",
+      },
+      {
+        name: "React",
+        url: "images/Assets/react-seeklogo.com.svg",
+      },
+      {
+        name: 'Tailwind CSS',
+        url: "images/Assets/tailwind-css-seeklogo.com.svg",
+      },
+      {
+        name: "API",
+        url: "images/Assets/api.svg",
+      },
+    ],
+  },
+  {
+    id: 1,
+    name: "Space Tourism Website",
+    image: "images/Projects/Project-space.jpg",
+    link: "https://rahmlad-aramide.github.io/Space-tourism-website/",
+    detail:
+      "This project was taken up as a challenge from Frontend Mentor to put my HTML CSS JavaScript skills to test from the Figma design and assets provided. If you're interested in doing the same, head to Frontend Mentor",
+    languages: [
+      {
+        name: 'HTML',
+        url: "images/Assets/html5-with-wordmark-color.svg",
+      },
+      {
+        name: 'CSS',
+        url: "images/Assets/css-3-seeklogo.com.svg",
+      },
+      {
+        name: 'JS',
+        url: "images/Assets/javascript-js-seeklogo.com.svg",
+      },
+    ],
+  },
+  {
     id: 15,
     name: "Alt Meet",
     image: "images/Projects/Project Altmeet.png",
@@ -64,10 +112,10 @@ export const DATA = [
   },
   {
     id: 17,
-    name: "Al-Burhan Media",
+    name: "Al-Burhan Media Test Project",
     image: "images/Projects/Project Al-Burhan.png",
     link: "https://rahmlad-aramide.github.io/Al-Burhan/",
-    detail: "Al-Burhan Media Website, Al-Burhan Media is a fast growing muslim organisation aimed at delivering the best islamic services to all ummah. It has one of the best satellite service.",
+    detail: "Al-Burhan Media Test Website Design Project, Al-Burhan Media is a fast growing muslim organisation aimed at delivering the best islamic services to all ummah. Which I volunteered as one of their developers to promote our religion.",
     languages: [
       {
         name: 'HTML',
@@ -145,28 +193,6 @@ export const DATA = [
         url: "images/Assets/react-seeklogo.com.svg",
     },
     ]
-  },
-  {
-    id: 1,
-    name: "Space Tourism Website",
-    image: "images/Projects/Project-space.jpg",
-    link: "https://rahmlad-aramide.github.io/Space-tourism-website/",
-    detail:
-      "Practice they say makes perfect, took this project up as a challenge from Frontend Mentor to put my HTML CSS JavaScript skills to test if you're interested in doing the same, head to Frontend Mentor",
-    languages: [
-      {
-        name: 'HTML',
-        url: "images/Assets/html5-with-wordmark-color.svg",
-      },
-      {
-        name: 'CSS',
-        url: "images/Assets/css-3-seeklogo.com.svg",
-      },
-      {
-        name: 'JS',
-        url: "images/Assets/javascript-js-seeklogo.com.svg",
-      },
-    ],
   },
   {
     id: 2,
@@ -358,7 +384,7 @@ export const DATA = [
     image: "images/Projects/Bankist.png",
     blur: "images/Projects/Blur Bankist.png",
     link: "https://rahmlad-aramide.github.io/Bankist-App/",
-    detail: "An internet banking app which was built as a final project while learning JavaScript with Jonas Schmedtmann, it's built for desktop view only and it requires user to sign in before being granted an access, use any of: i) Username: js Pin: 1111 ii) Username: jd Pin:2222 to signin",
+    detail: "An internet banking app which was built as while learning JavaScript with Jonas Schmedtmann, it's built for desktop view only and it requires user to sign in before being granted an access, use any of: i) Username: js Pin: 1111 ii) Username: jd Pin:2222 to signin",
     languages: [
       {
         name: 'HTML',

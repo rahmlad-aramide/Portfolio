@@ -16,15 +16,14 @@ const About = ({darkMode}) => {
                     About Me
                   </h1>
                   <p className="mx-10 mt-4 mb-10 md:mb-4">
-                    I am Abdrahman Adebayo, a self-taught Frontend web developer from Oyo
-                    State, Nigeria.
+                    I am Abdrahman Adebayo, a self-taught Frontend web developer from Nigeria.
+                    <br /> <br />
+                    I am one of the current HNG Internship [HNGi9] Finalist from Team plug in which we deliver the project <a className="underline" rel="noreferrer" target="_blank" href="https://yieldvest.hng.tech">Yieldvest</a>, 
+                    a Project that track, analyze and recommend best stocks for investors and more.
                     <br /> <br />
                     I'm open to learning new things and love getting my hands on project.
                     During my leisure you'll find me surfing the net/social media for
                     learning/catching fun or watching tech contents on YouTube.
-                    <br /> <br />
-                    I am shy to say that I'm a foodie and also love watching movies during
-                    my spare time.
                     <br /> <br />
                     Likewise, I love making friends, let's connect and you'll definitely
                     find me interesting.
