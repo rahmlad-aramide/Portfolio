@@ -1,33 +1,37 @@
 import React, { useContext } from "react";
 import { FaFacebook, FaTwitter, FaLinkedin, FaGithub, FaWhatsapp,
 } from "react-icons/fa";
-import Resume from "../Assets/ABDRAHMAN_ADEBAYO_OLADIMEJI.pdf";
+import Hero from './../images/Hero.jpg';
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import 'react-lazy-load-image-component/src/effects/blur.css';
+// import Resume from "../Assets/ABDRAHMAN_ADEBAYO_OLADIMEJI.pdf";
 import { ThemeContext } from "../Context";
 
 const Home = ({darkMode}) => {
   const theme = useContext(ThemeContext)
   const color = darkMode? theme.dark : theme.light;
   return (
-    <section className="flex bg-hero-mobile md:bg-hero bg-white bg-blend-darken bg-opacity-50 bg-cover bg-right h-[calc(100vh_-_4rem)] text-white">
-      <div className="my-auto ml-4 md:ml-20">
-        <h1 className="text-xl py-1">Hi there, I'm</h1>
-        <h2 className="text-5xl py-1 font-medium">
-          Abdrahman Adebayo <br /> Oladimeji
+    <section className={`flex bg-${color.background} text-${color.foreground} transition duration-500 md:h-full md:min-h-screen`}>
+      <div className="flex flex-col md:flex-row w-[90%] max-w-[1200px] mx-auto">
+      <div className="text-center md:text-left mt-28 mb-auto md:my-auto w-full md:w-1/2">
+        <h1 className="text-3xl md:text-5xl py-1">Hi 👋,</h1>
+        <h1 className="text-3xl md:text-5xl py-1">My name is</h1>
+        <h2 className="text-3xl md:text-5xl py-1 text-gradient">
+          Abdrahman A. <br /> <span className=""> Oladimeji</span>
         </h2>
-        <h3 className="text-2xl font-semibold pt-1 pb-2">A Frontend Engineer</h3>
-        <h3 className="text-2xl pt-1 pb-2">My Resume:</h3>
-        <a href={Resume} download={Resume}>
-          <button className={`bg-${color.background} text-${color.foreground} font-medium uppercase text-xl mr-[2px] py-1 px-4 rounded-full rounded-tr rounded-br border border-white hover:text-white hover:bg-transparent transition duration-500`}>
-            Download
-          </button>
-        </a>
-        <a href="https://bit.ly/rahmlad-resume" rel="noreferrer" target="_blank">
-          <button className={`bg-${color.background} text-${color.foreground} font-medium uppercase text-xl py-1 px-4 rounded-full rounded-bl rounded-tl border border-white hover:text-white hover:bg-transparent transition duration-500`}>
-            View
-          </button>
-        </a>
+        <h3 className="text-3xl md:text-5xl font-normal pt-1 pb-8 md:pb-2">A Frontend Developer</h3>
       </div>
-      <div className="flex z-0 absolute bottom-4 md:bottom-10 left-4 md:left-20 ">
+      <div className="flex justify-center md:justify-end w-full md:w-1/2 items-center mb-auto mt-0 md:my-auto mr-4 md:mr-10">
+        <div className="image-gradient flex h-fit">
+              <LazyLoadImage effect="blur"
+                      src={Hero}
+                      alt="Abdrahman Oladimeji"
+                      className="rounded-[50%] w-full h-full max-w-[300px] max-h-[300px]"
+                    />
+          {/* <img src={Hero} alt="Abdrahman Oladimeji" className="rounded-[50%] w-full h-full max-w-[300px] max-h-[300px]" /> */}
+        </div>
+      </div>
+      <div className="flex justify-center z-0 my-10 md:absolute md:bottom-0">
         <div className="flex">
           <a href="https://www.linkedin.com/in/Rahmlad/" target="blank">
             <FaLinkedin
@@ -63,6 +67,7 @@ const Home = ({darkMode}) => {
             />
           </a>
         </div>
+      </div>
       </div>
     </section>
   );

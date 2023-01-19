@@ -4,12 +4,11 @@ const theme = {
     light: {
         background: 'white',
         foreground: 'black',
-        opacity: '#ffffff20'
+        // background: 'white',
     },
     dark: {
         background: 'black',
         foreground: 'white',
-        opacity: '#00000020'
     }
 }
 const ThemeContext = createContext(theme)
