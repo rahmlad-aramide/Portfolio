@@ -11,7 +11,7 @@ const Home = ({darkMode}) => {
   const theme = useContext(ThemeContext)
   const color = darkMode? theme.dark : theme.light;
   return (
-    <section className={`flex bg-${color.background} text-${color.foreground} transition duration-500 md:h-full md:min-h-screen`}>
+    <section className={`flex bg-${color.background} text-${color.foreground} transition duration-500 md:h-full md:min-h-[calc(100vh_-_4rem)]`}>
       <div className="flex flex-col md:flex-row w-[90%] max-w-[1200px] mx-auto">
       <div className="text-center md:text-left mt-28 mb-auto md:my-auto w-full md:w-1/2">
         <h1 className="text-3xl md:text-5xl py-1">Hi 👋,</h1>

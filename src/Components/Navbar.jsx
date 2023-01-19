@@ -10,9 +10,11 @@ const Navbar = ({darkMode, color, handleTheme}) => {
   const showMenu = () => {
     navRef.current.classList.toggle('translate-x-[100%]');
   }
+  const pathname = window.location.pathname;
+  console.log(pathname);
   return (
-    <nav className={`w-full bg-${color.background} transition duration-500 flex justify-center`}>
-    <div className={`flex fixed w-full max-w-[1200px] mx-auto justify-between transition duration-500 bg-${color.background} text-${color.foreground} backdrop-blur h-16 px-4 md:px-0 z-20`}>
+    <nav className={`w-full bg-${color.background} transition duration-500 flex justify-center h-fit`}>
+    <div className={`flex w-full static max-w-[1200px] mx-auto justify-between transition duration-500 bg-${color.background} text-${color.foreground} backdrop-blur h-16 px-4 md:px-0 z-20`}>
         <div className='flex my-auto'>
             <Link to='/' className={`font-logo text-md sm:text-2xl border-2 border-x-0 border-white border-${color.foreground} border-gradient`}>Dev. Rahmlad</Link>
         </div>

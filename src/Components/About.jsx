@@ -3,7 +3,9 @@ import { useContext } from "react";
 import { ThemeContext } from "../Context";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import 'react-lazy-load-image-component/src/effects/blur.css';
+import AboutImg from "./../images/About_me.jpg"
 import Footer from "./Footer";
+import { Link } from "react-router-dom";
 
 const About = ({darkMode}) => {
   const theme = useContext(ThemeContext)
@@ -16,28 +18,28 @@ const About = ({darkMode}) => {
                     About Me
                   </h1>
                   <p className="mx-10 mt-4 mb-10 md:mb-4">
-                    I am Abdrahman Adebayo, a Frontend Web Developer from Nigeria.
+                    Hello, I am Abdrahman Adebayo a Frontend Web Developer with a passion for creating visually appealing
+                    and user-friendly websites.
                     <br /> <br />
-                    I am one of the HNG Internship 9 [HNGi9] Finalist from Team plug in where we build a project called <a className="underline" rel="noreferrer" target="_blank" href="https://yieldvest.app">Yieldvest</a>, 
-                    a Project that track, analyze and recommend best stocks for investors and more.
+                    With over 2 years of experience, I have a strong understanding of HTML, CSS, 
+                    and JavaScript, as well as experience with some of the popular frameworks and libraries
+                    like ReactJS, TailwindCSS, VueJS and few others. You can checkout my <Link to='/tech-stack' className="underline">Tech Stack</Link> for others
                     <br /> <br />
-                    I'm open to learning new things and love getting my hands on project.
-                    During my leisure you'll find me surfing the net/social media for
-                    learning/catching fun or watching tech contents on YouTube.
+                    My portfolio showcases a variety of projects that demonstrate my skills in design, layout, 
+                    and functionality.
                     <br /> <br />
-                    Likewise, I love making friends, let's connect and you'll definitely
-                    find me interesting.
+                    I am always eager to learn new technologies and techniques to stay 
+                     up-to-date with industry standards.
                     <br />
                     <br />
-                    Do you have any info on how I can learn, relearn unlearn or even earn
-                    for me or you want to know more about me? Please don't hesitate to
-                    reach out to me. Would love to hear from you.
+                    I am a team player and enjoy working with others to bring a project to fruition. 
+                    I am excited to share my work with you and hope to collaborate on future projects.
                   </p>
                 </div>
                 <div className="w-full md:w-1/2">
                   <div className="rounded-4xl">
                     <LazyLoadImage effect="blur"
-                      src="./images/About_me.jpg"
+                      src={AboutImg}
                       alt="Abdrahman Oladimeji"
                       className="w-full rounded-4xl"
                     />
