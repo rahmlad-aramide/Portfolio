@@ -11,17 +11,18 @@ const Skills = ({ darkMode }) => {
   console.log(color.background)
   return (
     <div
-      className={`h-[calc(100vh_-_4rem)] overflow-y-auto text-${color.foreground} bg-${color.background}`}
+      className={`h-[calc(100vh_-_4rem)] overflow-y-hidden md:overflow-y-auto text-${color.foreground} bg-${color.background}`}
     >
-      <div className=" mt-20 md:mt-0">
+      <div className="h-full">
+      <div className=" pt-16 md:-mt-12">
         <div
           className={`mb-6 text-[${color.foreground}] bg-[${color.background}]`}
         >
           <h1 className={`flex justify-center mt-6 text-3xl font-medium text-[${color.foreground}] bg-[${color.background}]`}>
-            Skills
+            Tech Stack
           </h1>
           <h3 className="mx-4 md:mx-20 text-center">
-            These are the languages and technologies that I'm familiar with, if
+            These are the tech stacks that I'm familiar with, if
             you have a project that required using any of it, you're just a{" "}
             <Link to="/contact" className="underline">
               contact
@@ -122,7 +123,8 @@ const Skills = ({ darkMode }) => {
           </div>
         </div>
       </div>
-      <Footer />
+      <Footer darkMode={darkMode} />
+    </div>
     </div>
   );
 };

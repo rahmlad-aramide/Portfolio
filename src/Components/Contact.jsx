@@ -8,8 +8,8 @@ const Contact = ({darkMode}) => {
   const color = darkMode? theme.dark : theme.light;
   
   return (
-    <section className={`h-[calc(100vh_-_4rem)] overflow-y-auto text-${color.foreground} bg-${color.background}`}>
-    <div className={`h-full mt-20 md:mt-0`}>
+    <section className={`h-full md:h-[calc(100vh_-_4rem)] overflow-y-auto text-${color.foreground} bg-${color.background}`}>
+    <div className={`h-full pt-20 md:pt-6`}>
       <div className="mb-6">
         <h1 className='flex justify-center mt-6 text-3xl font-medium'>Contact Me</h1>
         <h3 className="mx-4 md:mx-20 text-center">Here's the details you can use to get in touch with me or you can
@@ -22,7 +22,7 @@ const Contact = ({darkMode}) => {
           <div className="mt-2 w-full justify-center items-center">
             <div className="flex w-full">
               <div className="mr-4 flex items-center">
-                <FaMapMarked size={40}/>
+                <FaMapMarked size={35}/>
               </div>
               <div className="my-2">
                 <h3 className="font-medium">Address:</h3>
@@ -36,7 +36,7 @@ const Contact = ({darkMode}) => {
             </div>
             <div className="flex">
               <div className="mr-4 flex items-center">
-                <FaPhoneAlt size={40}/>
+                <FaPhoneAlt size={35}/>
               </div>
               <div className="my-2">
                 <h3 className="font-medium">Phone:</h3>
@@ -45,7 +45,7 @@ const Contact = ({darkMode}) => {
             </div>
             <div className="flex">
               <div className="mr-4 flex items-center">
-                <FaEnvelope size={40}/>
+                <FaEnvelope size={35}/>
               </div>
               <div className="my-2">
                 <h3 className="font-medium">Email:</h3>
@@ -91,7 +91,7 @@ const Contact = ({darkMode}) => {
       </div>
       </div>
     </div>
-    <Footer/>
+    <Footer darkMode={darkMode} />
     </section>
   )
 }

@@ -102,7 +102,7 @@ const Pagination = ({darkMode}) => {
                 <div className="flex justify-center">
                 <button
             onClick={handleView}
-            className={`text-${color.foreground} border-${color.foreground} my-3 font-medium uppercase text-xl py-1 px-4 rounded-full border hover:text-white hover:bg-black hover:scale-90 transition duration-500`}
+            className={`text-${color.foreground} border-white border-${color.foreground} my-3 font-medium uppercase text-xl py-1 px-4 rounded-full border hover:text-white hover:bg-black hover:scale-90 transition duration-500`}
           > <a className="" href={project.link} target="_blank" rel="noreferrer">View Live Site</a>
           </button>
                 </div>
@@ -141,10 +141,10 @@ const Pagination = ({darkMode}) => {
       </div>
       {!singleView ? (
         <div className="absolute w-full bottom-0">
-          <Footer />
+          <Footer darkMode={darkMode} />
         </div>
       ) : (
-        <Footer />
+        <Footer darkMode={darkMode} />
       )}
     </>
   );

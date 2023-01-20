@@ -5,7 +5,7 @@ export const DATA = [
     image: "images/Projects/Project-Yieldvest.png",
     link: "https://yieldvest.hng.tech",
     detail:
-      "Being the final project we delivered in my team for the current HNG Internship [HNGi9] where I led the team of Frontend Developers on the team to success as people believe that HNG Internship is not easy and challenging, we were able to make it to the final sucessfully.",
+      "Colaborated with my team during the 2022 cohort of HNG Internship [HNGi9] where I led the Frontend Developers through thick and thing and we were able to build and deploy Yieldvest at the end of the internship.",
     languages: [
       {
         name: "Next JS",
