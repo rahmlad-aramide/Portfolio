@@ -5,7 +5,7 @@ export const DATA = [
     image: "images/Projects/Project-Yieldvest.png",
     link: "https://yieldvest.hng.tech",
     detail:
-      "Colaborated with my team during the 2022 cohort of HNG Internship [HNGi9] where I led the Frontend Developers through thick and thing and we were able to build and deploy Yieldvest at the end of the internship.",
+      "Colaborated with my team during the 2022 cohort of HNG Internship [HNGi9] where I led the Frontend Developers through thick and thin, we were able to build and deploy Yieldvest at the end of the internship.",
     languages: [
       {
         name: "Next JS",
@@ -31,7 +31,7 @@ export const DATA = [
     image: "images/Projects/Project-space.jpg",
     link: "https://rahmlad-aramide.github.io/Space-tourism-website/",
     detail:
-      "This project was taken up as a challenge from Frontend Mentor to put my HTML CSS JavaScript skills to test from the Figma design and assets provided. If you're interested in doing the same, head to Frontend Mentor",
+      "Took up the project as a challenge from Frontend Mentor to put my HTML, CSS and JavaScript skills to test with the resources from the Figma design and other assets provided.",
     languages: [
       {
         name: 'HTML',
@@ -77,7 +77,7 @@ export const DATA = [
     name: "My personalized linktree",
     image: "images/Projects/Project Linktree.png",
     link: "https://task1-hng9.netlify.app",
-    detail: "A react app that was built bearing a similar feature like a linktree submitted as my HNG Internship task",
+    detail: "A react app built with a similar feature as a linktree submitted as my HNG Internship stage 2 task",
     languages: [
       {
           name: "React",
@@ -94,7 +94,7 @@ export const DATA = [
     name: "Connectify",
     image: "images/Projects/Project Connectify.png",
     link: "https://cra-assignment.netlify.app",
-    detail: "A react app built as a software for people to connect with each other and make friends",
+    detail: "Being a software similar to other social media for people to connect with each other and make friends",
     languages: [
       {
           name: "React",
@@ -115,7 +115,7 @@ export const DATA = [
     name: "Al-Burhan Media Test Project",
     image: "images/Projects/Project Al-Burhan.png",
     link: "https://rahmlad-aramide.github.io/Al-Burhan/",
-    detail: "Al-Burhan Media Test Website Design Project, Al-Burhan Media is a fast growing muslim organisation aimed at delivering the best islamic services to all ummah. Which I volunteered as one of their developers to promote our religion.",
+    detail: "Al-Burhan Media Assessment project. A fast growing muslim organisation aimed at delivering the best islamic services to all where I volunteered as one of the frontend developers to promote my religion and improve my skills.",
     languages: [
       {
         name: 'HTML',
@@ -153,7 +153,7 @@ export const DATA = [
     name: "Meme Generator",
     image: "images/Projects/Project Meme.jpg",
     link: "https://rahmlad-aramide.github.io/meme-generator/",
-    detail: "A meme generating app which was built while learning ReactJS and fetch the images from an API. As a meme lover, it'll be easier for me to create any of my own desire and also available for use by anybody.",
+    detail: "A meme generating app which was built while learning ReactJS with a random meme images generation being fetched from an API. As a meme lover, it'll be easier for me to create any meme of my own. It's also available for use by anybody.",
     languages: [
       {
         name: 'CSS',
@@ -200,7 +200,7 @@ export const DATA = [
     image: "images/Projects/Project portfolio.jpeg",
     link: "https://rahmlad-aramide.github.io/my-portfolio",
     detail: 
-        "My portfolio website project built with HTML CSS before being rebuilt using React JS",
+        "My portfolio website project built with HTML CSS before being redesigned using React JS",
     languages: [
       {
         name: 'HTML',
@@ -221,7 +221,7 @@ export const DATA = [
     name: "Fortune Bank Website",
     image: "images/Projects/Project Fortune.jpg",
     link: "https://fortune-bank.netlify.app",
-    detail: "An internet banking app which was created as a result of my Interest in making the world a better place through tech with the believe that either sooner or later, it'll come to live as with advanced features",
+    detail: "An internet banking app which was created as a result of my Interest in making the world a better place through tech with the belief that either sooner or later, it'll come to live with more advanced features",
     languages: [
       {
         name: 'HTML',
@@ -247,7 +247,7 @@ export const DATA = [
     name: "Tip Calculator",
     image: "images/Projects/Project Calc.jpg",
     link: "https://rahmlad-aramide.github.io/Tip-Calculator-App/",
-    detail: "A tip calculator web app which was built for easy calculation of tips by the service workers and to practice my knowledge of JavaScript but had to use HTML CSS for designing the interface",
+    detail: "A tip calculator web app which was built for easy calculation of tips by the service workers and to practice my knowledge of JavaScript, made use of HTML CSS for designing the interface",
     languages: [
       {
         name: 'HTML',
@@ -269,7 +269,7 @@ export const DATA = [
     name: "About Me Assignment Project",
     image: "images/Projects/Project About.jpeg",
     link: "http://about-me.abdrahmanoladim.repl.co/",
-    detail: "About Me Project given as a Class Assignment project while learning at AltSchool Africa, School of Software Engineering built with pure HTML and CSS and well responsive with cool animations",
+    detail: "About Me assignment project given as a class assignment while learning at AltSchool Africa, School of Software Engineering built with pure HTML and CSS with few animations",
     languages: [
       {
         name: 'HTML',
@@ -311,7 +311,7 @@ export const DATA = [
     name: "Golden Generation Registration Website",
     image: "images/Projects/Project GG.jpg",
     link: "https://rahmlad-aramide.github.io/golden-generation-2022/",
-    detail: "Golden Generation website for Registration for 2022 Quiz & Debate program. I built it for my Community Development organization using BoostrapMade template so as to avoid disappointment because it came in as an urgent work.",
+    detail: "Golden Generation Registration website for 2022 Quiz & Debate program. Built for my Community Development organization using BoostrapMade template and edited to meet up with our needs.",
     languages: [
       {
         name: 'HTML',
@@ -336,7 +336,7 @@ export const DATA = [
     name: "Task Tracking App",
     image: "images/Projects/Project Task.jpg",
     link: "https://tasks-tracking.netlify.app/",
-    detail: "Designed the frontend of the project for a friend that happens to be a backend developer for him to build a todo-list app and handle the rest in the backend",
+    detail: "Designed the frontend of the project for a friend that happens to be a backend developer for him to implement the todo-list app functionality in the backend.",
     languages: [
       {
         name: 'HTML',
@@ -357,7 +357,7 @@ export const DATA = [
     name: "Porfolio with SCSS",
     image: "images/Projects/Project Sass.jpeg",
     link: "https://rahmlad-aramide.github.io/sass-portfolio/",
-    detail: "My personal Porfolio project built while learning Sass/Scss to have a better understanding of the language, a bit of JS was used to implement some functionalities",
+    detail: "My personal Porfolio project built while learning Sass/Scss to have a better understanding of the language, a bit of JS was used to implement some the functionalities.",
     languages: [
       {
         name: 'HTML',
@@ -384,7 +384,7 @@ export const DATA = [
     image: "images/Projects/Bankist.png",
     blur: "images/Projects/Blur Bankist.png",
     link: "https://rahmlad-aramide.github.io/Bankist-App/",
-    detail: "An internet banking app which was built as while learning JavaScript with Jonas Schmedtmann, it's built for desktop view only and it requires user to sign in before being granted an access, use any of: i) Username: js Pin: 1111 ii) Username: jd Pin:2222 to signin",
+    detail: "An internet banking app which was built as while learning JavaScript with Jonas Schmedtmann, it's built for desktop view only and it requires user to sign in before being granted an access, you can use any of these login deatails: (i) Username: js Pin: 1111 (ii) Username: jd Pin:2222",
     languages: [
       {
         name: 'HTML',

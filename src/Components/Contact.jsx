@@ -10,7 +10,7 @@ const Contact = ({darkMode}) => {
   return (
     <section className={`h-full md:h-[calc(100vh_-_4rem)] overflow-y-auto text-${color.foreground} bg-${color.background}`}>
     <div className={`h-full pt-20 md:pt-6`}>
-      <div className="mb-6">
+      <div className="mb-10">
         <h1 className='flex justify-center mt-6 text-3xl font-medium'>Contact Me</h1>
         <h3 className="mx-4 md:mx-20 text-center">Here's the details you can use to get in touch with me or you can
           simply drop a message for me by filling the form below:</h3>
@@ -25,11 +25,9 @@ const Contact = ({darkMode}) => {
                 <FaMapMarked size={35}/>
               </div>
               <div className="my-2">
-                <h3 className="font-medium">Address:</h3>
+                <h3 className="font-medium">Location:</h3>
                 <p>
-                  No. 20, Adegoke Villa, <br />
-                  Lane 2 Irewole Community, <br />
-                  Mogi Area, Oyo, Oyo State. <br />
+                   Oyo State, 
                   Nigeria.
                 </p>
               </div>
@@ -49,7 +47,7 @@ const Contact = ({darkMode}) => {
               </div>
               <div className="my-2">
                 <h3 className="font-medium">Email:</h3>
-                <p className="text-[12px] sm:text-lg">abdrahmanoladimeji02@gmail.com</p>
+                <p className="text-[12px] sm:text-base">abdrahmanoladimeji02@gmail.com</p>
               </div>
             </div>
           </div>
@@ -90,8 +88,8 @@ const Contact = ({darkMode}) => {
         </div>
       </div>
       </div>
+      <Footer darkMode={darkMode} />
     </div>
-    <Footer darkMode={darkMode} />
     </section>
   )
 }

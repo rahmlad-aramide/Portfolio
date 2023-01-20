@@ -24,7 +24,7 @@ const About = ({darkMode}) => {
                     <br /> <br />
                     With over 2 years of experience, I have a strong understanding of HTML, CSS, 
                     and JavaScript, as well as experience with some of the popular frameworks and libraries
-                    like ReactJS, TailwindCSS, VueJS and few others. You can checkout my <Link to='/tech-stack' className="underline">Tech Stack</Link> for others
+                    like ReactJS, TailwindCSS, VueJS and few others. You can checkout my <Link to='/tech-stack' className="underline">Tech Stack.</Link>
                     <br /> <br />
                     My portfolio showcases a variety of projects that demonstrate my skills in design, layout, 
                     and functionality.
