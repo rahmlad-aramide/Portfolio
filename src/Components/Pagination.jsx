@@ -1,18 +1,14 @@
 import React, { useContext } from "react";
 import { useEffect, useState } from "react";
-import {
-  FaArrowAltCircleLeft,
-  FaArrowAltCircleRight,
-} from "react-icons/fa";
+import { FaArrowAltCircleLeft, FaArrowAltCircleRight } from "react-icons/fa";
 import { LazyLoadImage } from "react-lazy-load-image-component";
-import 'react-lazy-load-image-component/src/effects/blur.css';
+import "react-lazy-load-image-component/src/effects/blur.css";
 import { ThemeContext } from "../Context";
 import { DATA } from "../projectsData";
 import Footer from "./Footer";
-const Pagination = ({darkMode}) => {
-  const theme = useContext(ThemeContext);
-  const color = darkMode ? theme.dark : theme.light;
-  console.log('pag', color.background)
+const Pagination = ({ darkMode }) => {
+  const { theme } = useContext(ThemeContext);
+  const color = theme;
 
   const [singleView, setSingleView] = useState(false);
   const [currentPosition, setCurrentPosition] = useState(0);
@@ -51,7 +47,9 @@ const Pagination = ({darkMode}) => {
   };
   return (
     <>
-      <div className={`h-[cal(100vh_-_4rem)] min-h-[calc(100vh_-_4rem)] mt-16 md:mt-0 text-${color.foreground} bg-${color.background}`}>
+      <div
+        className={`h-[cal(100vh_-_4rem)] min-h-[calc(100vh_-_4rem)] mt-16 md:mt-0 text-${color.foreground} bg-${color.background}`}
+      >
         <div className="flex text-center justify-center">
           <button
             onClick={handleView}
@@ -71,44 +69,80 @@ const Pagination = ({darkMode}) => {
                 <h2 className="mt-2 mb-4">{data.detail}</h2>
                 <h3>Languages/Technologies used:</h3>
                 <div className="flex my-3">
-                  {data.languages.map(language => (<LazyLoadImage src={language.url} effect="blur" alt={language.name} className={`border h-12 bg-white`}/>))}
+                  {data.languages.map((language) => (
+                    <LazyLoadImage
+                      src={language.url}
+                      effect="blur"
+                      alt={language.name}
+                      className={`border h-12 bg-white`}
+                    />
+                  ))}
                 </div>
                 <div>
-                <button
-            onClick={handleView}
-            className={`text-${color.foreground} border-${color.foreground} my-3 font-medium uppercase text-xl py-1 px-4 rounded-full border hover:text-white hover:bg-black hover:scale-90 transition duration-500`}
-          > <a href={data.link} target="_blank" rel="noreferrer">View Live Site</a>
-          </button>
+                  <button
+                    onClick={handleView}
+                    className={`text-${color.foreground} border-${color.foreground} my-3 font-medium uppercase text-xl py-1 px-4 rounded-full border hover:text-white hover:bg-black hover:scale-90 transition duration-500`}
+                  >
+                    {" "}
+                    <a href={data.link} target="_blank" rel="noreferrer">
+                      View Live Site
+                    </a>
+                  </button>
                 </div>
               </div>
               <div className="w-full md:w-1/2">
-                <LazyLoadImage effect="blur" src={data.image} alt={`${data.name} Project`} />
+                <LazyLoadImage
+                  effect="blur"
+                  src={data.image}
+                  alt={`${data.name} Project`}
+                />
               </div>
             </div>
           ))
         ) : (
           <>
             {loading ? (
-              <div className="flex text-4xl justify-center items-center">Loading... </div>
+              <div className="flex text-4xl justify-center items-center">
+                Loading...{" "}
+              </div>
             ) : (
-              <div className={`text-${color.foreground} bg-${color.background} relative m-4 min-h-[calc(50vh)] border flex flex-col md:flex-row p-4 rounded shadow-lg border-gray-400`}>
+              <div
+                className={`text-${color.foreground} bg-${color.background} relative m-4 min-h-[calc(50vh)] border flex flex-col md:flex-row p-4 rounded shadow-lg border-gray-400`}
+              >
                 <div className="w-full md:w-1/2 mx-2">
                   <h1 className="text-2xl">{project.name}</h1>
                   <h2 className="mb-4">{project.detail}</h2>
                   <h3>Languages/Technologies used:</h3>
-                <div className="flex my-3">
-                  {project.languages.map(language => (<LazyLoadImage effect="blur" src={language.url} alt={language.name} className={`border h-12 bg-white`}/>))}
-                </div>
-                <div className="flex justify-center">
-                <button
-            onClick={handleView}
-            className={`text-${color.foreground} border-white border-${color.foreground} my-3 font-medium uppercase text-xl py-1 px-4 rounded-full border hover:text-white hover:bg-black hover:scale-90 transition duration-500`}
-          > <a className="" href={project.link} target="_blank" rel="noreferrer">View Live Site</a>
-          </button>
-                </div>
+                  <div className="flex my-3">
+                    {project.languages.map((language) => (
+                      <LazyLoadImage
+                        effect="blur"
+                        src={language.url}
+                        alt={language.name}
+                        className={`border h-12 bg-white`}
+                      />
+                    ))}
+                  </div>
+                  <div className="flex justify-center">
+                    <button
+                      onClick={handleView}
+                      className={`text-${color.foreground} border-white border-${color.foreground} my-3 font-medium uppercase text-xl py-1 px-4 rounded-full border hover:text-white hover:bg-black hover:scale-90 transition duration-500`}
+                    >
+                      {" "}
+                      <a
+                        className=""
+                        href={project.link}
+                        target="_blank"
+                        rel="noreferrer"
+                      >
+                        View Live Site
+                      </a>
+                    </button>
+                  </div>
                 </div>
                 <div className="w-full md:w-1/2">
-                  <LazyLoadImage effect="blur"
+                  <LazyLoadImage
+                    effect="blur"
                     src={project.image}
                     alt={`${project.name} Project`}
                     // className="h-full"
@@ -141,7 +175,7 @@ const Pagination = ({darkMode}) => {
       </div>
       {!singleView ? (
         <div className="absolute w-full bottom-0">
-          <Footer darkMode={darkMode} />
+          {/* <Footer darkMode={darkMode} /> */}
         </div>
       ) : (
         <Footer darkMode={darkMode} />

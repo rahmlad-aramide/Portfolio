@@ -1,29 +1,37 @@
-import React, {useState} from 'react'
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import { About, Contact, Home, Navbar, Skills, Projects, ErrorPage} from "./Components";
-import { ThemeContext, theme } from "./Context";
+import {
+  About,
+  Contact,
+  Home,
+  // Navbar,
+  Skills,
+  Projects,
+  ErrorPage,
+  TopProjects,
+  ProjectDetail,
+} from "./Components";
+import Navbar from "./Components/Navbar"
+import NavbarMobile from "./Components/NavbarMobile"
+import { ThemeProvider } from "./Context/ThemeContext";
 
 function App() {
-  const [darkMode, setDarkMode] = useState(true)
-  const color = darkMode? theme.dark : theme.light;
- const handleTheme = () => {
-    setDarkMode(!darkMode)
-  }
-  
   return (
     <div className="font-body">
-      <ThemeContext.Provider value={theme}>
-        <Navbar darkMode={darkMode} color={color} handleTheme={handleTheme} setDarkMode={setDarkMode}/>
+      <ThemeProvider>
+        <Navbar />
+        <NavbarMobile />
         <Routes>
-          <Route path="/" element={<Home darkMode={darkMode}/>} />
-          <Route path="/about" element={<About darkMode={darkMode} />} />
-          <Route path="/tech-stack" element={<Skills darkMode={darkMode}/>} />
-          <Route path="/projects" element={<Projects darkMode={darkMode}/>} />
-          <Route path="/contact" element={<Contact darkMode={darkMode}/>} />
-          <Route path="*" element={<ErrorPage darkMode={darkMode}/>} />
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/tech-stack" element={<Skills />} />
+          <Route path="/projects" element={<TopProjects />} />
+          <Route path="/projects/:id" element={<ProjectDetail />} />
+          <Route path="/archive" element={<Projects />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="*" element={<ErrorPage />} />
         </Routes>
-      </ThemeContext.Provider>
+      </ThemeProvider>
     </div>
   );
 }

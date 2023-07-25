@@ -6,6 +6,7 @@ import Toggler from "./Toggler";
 import { motion } from "framer-motion";
 
 const Navbar = () => {
+  const windowWidth = window.innerWidth
 
   const { theme } = useContext(ThemeContext);
   const color = theme;
@@ -34,11 +35,11 @@ const Navbar = () => {
   return (
     <nav 
       style={{ backgroundColor: color.background, color: color.foreground }}
-      className={`hidden md:flex transition duration-500 justify-center h-fit overflow-hidden`}
+      className={`transition duration-500 flex md:hidden justify-center h-fit overflow-hidden`}
     >
-      <div className={color.name === 'light'? `fixed z-40 h-16 w-full md:hidden bg-white/50 backdrop-blur-lg overflow-hidden`: `fixed z-40 h-16 w-full md:hidden bg-[${color.background}] backdrop-blur-lg` }></div>
-      <div
-        className={`flex w-[90%] fixed md:static  mx-auto justify-between h-16 px-4 md:px-0 z-50 overflow-hidden`}
+      <div  style={{ width: windowWidth }} className={color.name === 'light'? `fixed z-40 h-16 w-full md:hidden bg-white/50 backdrop-blur-lg overflow-hidden`: `fixed z-40 h-16 w-full md:hidden bg-[${color.background}] backdrop-blur-lg` }></div>
+      <div style={{ maxWidth: windowWidth }} 
+        className={`flex w-full fixed md:static  mx-auto justify-between h-16 px-4 md:px-0 z-50 overflow-hidden`}
       >
         <motion.div variants={navVariants} initial="hidden" animate="visible" className="flex my-auto">
           <Link

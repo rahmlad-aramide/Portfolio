@@ -22,8 +22,42 @@
   }
 
   .text-gradient {
-    font-weight: 700;
+    font-weight: 900;
 	background: linear-gradient(to right, #743ad5 -2%, #d53a9d 100%);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
   }
+
+  .arrow {
+    display: inline-block;
+    transform-origin: center;
+    animation: arrow-right 1s ease-in-out infinite;
+  }
+  
+  @keyframes arrow-right {
+    0% {
+      transform: translateX(0) scale(1);
+    }
+    50% {
+      transform: translateX(10px) scale(1.2);
+    }
+    100% {
+      transform: translateX(20px) scale(1);
+    }
+  }
+  .animate-wave {
+    animation-name: wave;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+  }
+
+  @keyframes wave {
+    0% { transform: rotate(0deg); }
+    20% { transform: rotate(20deg); }
+    40% { transform: rotate(-10deg); }
+    60% { transform: rotate(15deg); }
+    80% { transform: rotate(-10deg); }
+    100% { transform: rotate(0deg); }
+  }
+  
+  

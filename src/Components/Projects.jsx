@@ -1,17 +1,15 @@
-import React, { Suspense } from 'react'
+import React, { Suspense } from "react";
 // import { DATA } from '../projectsData'
 // import Pagination from './Pagination'
-const PaginatedProject = React.lazy(()=> import('./Pagination'));
-const Projects = ({darkMode}) => {
-    
+const PaginatedProject = React.lazy(() => import("./Pagination"));
+const Projects = () => {
   return (
+    <div className="h-[calc(100vh_-_4rem)] overflow-y-auto">
+      <Suspense fallback={<div>Loading...</div>}>
+        <PaginatedProject />
+      </Suspense>
+    </div>
+  );
+};
 
-  <div className='h-[calc(100vh_-_4rem)] overflow-y-auto'>
-    <Suspense fallback={<div>Loading...</div>}>
-      <PaginatedProject darkMode={darkMode}/>
-    </Suspense>
-  </div>
-  )
-}
-
-export default Projects
+export default Projects;
