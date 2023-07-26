@@ -49,7 +49,7 @@ const TopProjects = () => {
                 </div>
               </div>
               <div className="flex justify-end items-end my-4">
-                <Link to={`/projects/${project.name}`}>
+                <Link to={`/projects/${project.name.toLowerCase().replaceAll(' ', '-')}`}>
                   <div style={{ borderColor: color.content, color: color.content }} className="flex w-fit border rounded-full px-4 py-1 hover:scale-90 active:scale-100 transition cursor-pointer">
                     View Project Details
                   </div>

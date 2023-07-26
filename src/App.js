@@ -26,7 +26,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/tech-stack" element={<Skills />} />
           <Route path="/projects" element={<TopProjects />} />
-          <Route path="/projects/:id" element={<ProjectDetail />} />
+          <Route path="/projects/:name" element={<ProjectDetail />} />
           <Route path="/archive" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="*" element={<ErrorPage />} />
