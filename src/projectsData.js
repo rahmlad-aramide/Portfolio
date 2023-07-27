@@ -6,10 +6,10 @@ export const TOP = [
     image:
       "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1679304758/portfolio/images/Projects/Project-Yieldvest_xlcytz.png",
     link: "https://yieldvest.app",
-    repo: "https://github.com/workshopapps",
+    repo: "https://github.com/workshopapps/investment.web",
     type: "Internship Final Project",
     status: "Completed and still being maintained",
-    desc: "A stock recommendation app built for those dealing with stocks through the use of fundamental analysis to reduce risks",
+    desc: "A stock recommendation app built for those dealing with stocks through the use of fundamental analysis to reduce investment risks",
     detail:
       "Colaborated with my team during the 2022 cohort of HNG Internship [HNGi9] where I led the Frontend Developers through thick and thin, we were able to build and deploy Yieldvest at the end of the internship.",
     languages: [
@@ -44,49 +44,169 @@ export const TOP = [
     name: "Adorn Home Decor",
     framedImage: "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1684597972/portfolio/images/Projects/Adorn/adorn_framed_imvmnu.png",
     image: "images/Projects/Project-space.jpg",
-    link: "https://rahmlad-aramide.github.io/Space-tourism-website/",
-    desc: "A furniture company shopping ecommerce website project to ease the purchase of home & office furnitures",
+    link: "https://adorn.netlify.app/",
+    repo: "https://github.com/rahmlad-aramide/adorn",
+    type: "Local Problem Solving",
+    status: "In progress",
+    desc: "A furniture company ecommerce website project to ease the purchase of home & office furnitures",
     detail:
-      "Took up the project as a challenge from Frontend Mentor to put my HTML, CSS and JavaScript skills to test with the resources from the Figma design and other assets provided.",
+      "As a problem solver, I took it up as a challenge to provide solution to a local problem using my skills which I made me to be particular about a skilled man around my area who owns a furniture company but without an online presence, meaning that you can only checkout his products in his company showroom alone which is not really the best in this digital age. Hence, I decide to help his brand create a website wehre customers can shop and checkout their products directly and even get them delivered to them at their comfort zone as the compnay possesses vehicle for transporiing their purchased producst to them",
     languages: [
       {
-        name: "HTML",
-        url: "images/Assets/html5-with-wordmark-color.svg",
+        name: "React",
       },
       {
-        name: "CSS",
-        url: "images/Assets/css-3-seeklogo.com.svg",
+        name: "Tailwind CSS",
       },
       {
-        name: "JS",
-        url: "images/Assets/javascript-js-seeklogo.com.svg",
+        name: "Firebase",
+      },
+      {
+        name: "React Toastify",
+      },
+      {
+        name: "React Router Dom",
+      },
+      {
+        name: "React Router HashLink",
+      },
+      {
+        name: "Netlify",
       },
     ],
+    challenge: `A major problem that I'm faced with in this design and development stage is getting the quality pictures of his products to display on the website catalog and categories section, therefore, I make use of placeholder images tentatively before the project is launched.`,
+    gains: `As it's still a work in progress, the major gain I'm looking forward to is seeing that I'm able to solve local problem as I was inspired to do this because I was impressed about the quality of his works and at the same time, his company owns a vehicle that is being used to transport those products to the customers, to further provide a way to bring his brand to people's notice especially their potential clients and won't require them to come around before they can purchase any of their goods.`
   },
   {
     id: 3,
     name: "PVC-Pipe",
     framedImage: "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1684583569/portfolio/images/Projects/PVC-Pipe/pvc-pipe-framed_nrzdug.png",
     image: "images/Projects/Project-space.jpg",
-    link: "https://rahmlad-aramide.github.io/Space-tourism-website/",
-    desc: "A permanent voters card tracking and delivery app built for Nigerians finding it difficult to get their permanent voters card",
+    link: "https://pvc-pipe.org",
+    repo: "https://github.com/rahmlad-aramide/pvc-pipe",
+    type: "National Problem Solving",
+    status: "MVP Completed, opened to adoption and upgrade",
+    desc: "A permanent voters card tracking and delivery app built for my fellow citizens finding it difficult to get their permanent voters card",
     detail:
-      "An internship project delivered by my team while interning with Enoverlab, a team of 2 developers and 2 designers.",
+      "During the last election process for the Nigeria National Election in February 2023, I was informed that my Permanent Voter's Card (PVC) is available for collection whereas I wasn't around then, so for security purpose, it can't be given t someone else on my on my behalf, hence the need for me to come back from travel to get it, had it been that this kind of service is already in existence, it would have been easier for me to get my card delivered to me easily. Likewise, the project was submitted as an internship project delivered by my team while interning with Enoverlab, a team of 2 developers, 2 product managers and 2 designers.",
     languages: [
       {
-        name: "HTML",
-        url: "images/Assets/html5-with-wordmark-color.svg",
+        name: "React",
       },
       {
-        name: "CSS",
-        url: "images/Assets/css-3-seeklogo.com.svg",
+        name: "Tailwind CSS",
       },
       {
-        name: "JS",
-        url: "images/Assets/javascript-js-seeklogo.com.svg",
+        name: "Firebase",
+      },
+      {
+        name: "Cloud OTP",
+      },
+      {
+        name: "React Toastify",
+      },
+      {
+        name: "Paystack",
+      },
+      {
+        name: "Randomuser API",
+      },
+      {
+        name: "Namecheap Domain",
       },
     ],
-  }
+    challenge: `As there's not backend engineer on the team, we had to result into using some already built libraries and technologies within our reach. Also, we don't have access to the National databse that houses the voters information, we had to make use of random user and/or random number where applicable in which we believe will give us an avenue to get it adopted and get needed real data and resources to make it available for use by all.`,
+    gains: `It greatly made me to realize that I may not always have access to all the needed resources to execute projects completely which I need to make as such that it doesn't turn into obstacles while working on the project, therefore we had to look for some other alternatives and other possible approaches that we can take to get the job done. Also, my teamwork and team communication skills improved, as well as coding styles and learning, relearning, and unlearning through interactions with others on the team.`,
+    additional: ``
+  },
+  {
+    id: 4,
+    name: "Scissor",
+    framedImage: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1680001660/portfolio/images/Projects/Yieldvest/Yieldvest-Frame_uugts9.png',
+    image:
+      "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1679304758/portfolio/images/Projects/Project-Yieldvest_xlcytz.png",
+    link: "https://scissor.netlify.app",
+    repo: "https://github.com/rahmlad-aramide/scissor",
+    type: "Captstone Project",
+    status: "MVP Launched but additional feature (Analytics and Settings) in progress",
+    desc: "A URL Shortening app that allows users to shorten & create custom links, generate QR Code for the links and tracks the links performance.",
+    detail:
+      "In today's world, it's important to keep things as short as possible, and this applies to more concepts than you may realize. From music, speeches, to wedding receptions, brief is the new black. Scissor is a simple tool which makes URLs as short as possible. It was submitted as my Frontend Engineering Diploma Program Capstone Project at AltSchool Africa, School of Software Engineering",
+    languages: [
+      {
+        name: "Typescript",
+      },
+      {
+        name: "React",
+        url: "images/Assets/react-seeklogo.com.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        url: "images/Assets/tailwind-css-seeklogo.com.svg",
+      },
+      {
+        name: "Firebase",
+      },
+      {
+        name: "Vite",
+      },
+      {
+        name: "Unit & Component Testing",
+      },
+      {
+        name: "API Integration",
+        url: "images/Assets/api.svg",
+      },
+      {
+        name: "React Router DOM",
+      },
+      {
+        name: "React Router  Hashlink",
+      },
+    ],
+    challenge: `I was required to use TypeScript for the project which I've not learned before, so I had to learn the basics of it on the go because of the deadline, even though I started it with React JSX then later converted it to TypeScript TSX. Also, I was required to write a few components and unit testing, I had to learn the basics of it as well so as to be able to make my submission before the deadline.`,
+    gains: `It gave me a chance to work within a short timeframe/a tight deadline while ensuring I submit a quality work and a chance to add and improve my skills.`
+  },
+  // {
+  //   id: 5,
+  //   name: "LAUMGA Membapp",
+  //   framedImage: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1680001660/portfolio/images/Projects/Yieldvest/Yieldvest-Frame_uugts9.png',
+  //   image:
+  //     "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1679304758/portfolio/images/Projects/Project-Yieldvest_xlcytz.png",
+  //   link: "https://yieldvest.app",
+  //   repo: "https://github.com/workshopapps",
+  //   type: "Internship Final Project",
+  //   status: "Completed and still being maintained",
+  //   desc: "A stock recommendation app built for those dealing with stocks through the use of fundamental analysis to reduce risks",
+  //   detail:
+  //     "Colaborated with my team during the 2022 cohort of HNG Internship [HNGi9] where I led the Frontend Developers through thick and thin, we were able to build and deploy Yieldvest at the end of the internship.",
+  //   languages: [
+  //     {
+  //       name: "Next JS",
+  //       url: "images/Assets/next-js-seeklogo.com.svg",
+  //     },
+  //     {
+  //       name: "React",
+  //       url: "images/Assets/react-seeklogo.com.svg",
+  //     },
+  //     {
+  //       name: "Tailwind CSS",
+  //       url: "images/Assets/tailwind-css-seeklogo.com.svg",
+  //     },
+  //     {
+  //       name: "Prop Types",
+  //     },
+  //     {
+  //       name: "Unit Testing",
+  //     },
+  //     {
+  //       name: "API",
+  //       url: "images/Assets/api.svg",
+  //     },
+  //   ],
+  //   challenge: `As the Frontend Team Lead, one of the challenges I faced was managing my team members, especially during times of deviation from the given instruction(s). Additionally, on a personal level, being in an internship program that overlapped with my examination period, the erratic state of power supply, coupled with my PC's damaged battery, presented serious challenges while working on the project.`,
+  //   gains: `Indeed, after difficulty comes ease. Despite all the hurdles, it later turned out to be something that prepared me for similar obstacles that I may encounter at a later time, because for me to be able to scale through successfully, it simply ignites my spirit of not giving up, which is greatly helpful. Also, teamwork and team management skills improved, as well as coding styles and learning, relearning, and unlearning through interactions with others.`
+  // },
 ];
 export const DATA = [
   {
