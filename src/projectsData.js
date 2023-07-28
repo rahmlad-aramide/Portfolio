@@ -1,56 +1,18 @@
 export const TOP = [
   {
-    id: 1,
-    name: "Yieldvest",
-    framedImage: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1680001660/portfolio/images/Projects/Yieldvest/Yieldvest-Frame_uugts9.png',
-    image:
-      "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1679304758/portfolio/images/Projects/Project-Yieldvest_xlcytz.png",
-    link: "https://yieldvest.app",
-    repo: "https://github.com/workshopapps/investment.web",
-    type: "Internship Final Project",
-    status: "Completed and still being maintained",
-    desc: "A stock recommendation app built for those dealing with stocks through the use of fundamental analysis to reduce investment risks",
-    detail:
-      "Colaborated with my team during the 2022 cohort of HNG Internship [HNGi9] where I led the Frontend Developers through thick and thin, we were able to build and deploy Yieldvest at the end of the internship.",
-    languages: [
-      {
-        name: "Next JS",
-        url: "images/Assets/next-js-seeklogo.com.svg",
-      },
-      {
-        name: "React",
-        url: "images/Assets/react-seeklogo.com.svg",
-      },
-      {
-        name: "Tailwind CSS",
-        url: "images/Assets/tailwind-css-seeklogo.com.svg",
-      },
-      {
-        name: "Prop Types",
-      },
-      {
-        name: "Unit Testing",
-      },
-      {
-        name: "API",
-        url: "images/Assets/api.svg",
-      },
-    ],
-    challenge: `As the Frontend Team Lead, one of the challenges I faced was managing my team members, especially during times of deviation from the given instruction(s). Additionally, on a personal level, being in an internship program that overlapped with my examination period, the erratic state of power supply, coupled with my PC's damaged battery, presented serious challenges while working on the project.`,
-    gains: `Indeed, after difficulty comes ease. Despite all the hurdles, it later turned out to be something that prepared me for similar obstacles that I may encounter at a later time, because for me to be able to scale through successfully, it simply ignites my spirit of not giving up, which is greatly helpful. Also, teamwork and team management skills improved, as well as coding styles and learning, relearning, and unlearning through interactions with others.`
-  },
-  {
     id: 2,
     name: "Adorn Home Decor",
     framedImage: "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1684597972/portfolio/images/Projects/Adorn/adorn_framed_imvmnu.png",
-    image: "images/Projects/Project-space.jpg",
+    image: "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1684597972/portfolio/images/Projects/Adorn/adorn_desktop_xmpyru.png",
+    image2: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582004/portfolio/images/Projects/Adorn/adorn3_pbds5e.png',  
+    image3: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582004/portfolio/images/Projects/Adorn/adorn2_jat9ma.png',  
     link: "https://adorn.netlify.app/",
     repo: "https://github.com/rahmlad-aramide/adorn",
     type: "Local Problem Solving",
     status: "In progress",
     desc: "A furniture company ecommerce website project to ease the purchase of home & office furnitures",
     detail:
-      "As a problem solver, I took it up as a challenge to provide solution to a local problem using my skills which I made me to be particular about a skilled man around my area who owns a furniture company but without an online presence, meaning that you can only checkout his products in his company showroom alone which is not really the best in this digital age. Hence, I decide to help his brand create a website wehre customers can shop and checkout their products directly and even get them delivered to them at their comfort zone as the compnay possesses vehicle for transporiing their purchased producst to them",
+      "As a problem solver, I took it up as a challenge to provide solution to a local problem using my skills which I made me to be particular about a skilled man around my area who owns a furniture company but without an online presence, meaning that you can only checkout his products in his company showroom alone which is not really the best in this digital age. Hence, I decide to help his brand create a website wehre customers can shop and checkout their products directly and even get them delivered to them at their comfort zone as the compnay possesses vehicle for transporiing their purchased products to them.",
     languages: [
       {
         name: "React",
@@ -78,53 +40,13 @@ export const TOP = [
     gains: `As it's still a work in progress, the major gain I'm looking forward to is seeing that I'm able to solve local problem as I was inspired to do this because I was impressed about the quality of his works and at the same time, his company owns a vehicle that is being used to transport those products to the customers, to further provide a way to bring his brand to people's notice especially their potential clients and won't require them to come around before they can purchase any of their goods.`
   },
   {
-    id: 3,
-    name: "PVC-Pipe",
-    framedImage: "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1684583569/portfolio/images/Projects/PVC-Pipe/pvc-pipe-framed_nrzdug.png",
-    image: "images/Projects/Project-space.jpg",
-    link: "https://pvc-pipe.org",
-    repo: "https://github.com/rahmlad-aramide/pvc-pipe",
-    type: "National Problem Solving",
-    status: "MVP Completed, opened to adoption and upgrade",
-    desc: "A permanent voters card tracking and delivery app built for my fellow citizens finding it difficult to get their permanent voters card",
-    detail:
-      "During the last election process for the Nigeria National Election in February 2023, I was informed that my Permanent Voter's Card (PVC) is available for collection whereas I wasn't around then, so for security purpose, it can't be given t someone else on my on my behalf, hence the need for me to come back from travel to get it, had it been that this kind of service is already in existence, it would have been easier for me to get my card delivered to me easily. Likewise, the project was submitted as an internship project delivered by my team while interning with Enoverlab, a team of 2 developers, 2 product managers and 2 designers.",
-    languages: [
-      {
-        name: "React",
-      },
-      {
-        name: "Tailwind CSS",
-      },
-      {
-        name: "Firebase",
-      },
-      {
-        name: "Cloud OTP",
-      },
-      {
-        name: "React Toastify",
-      },
-      {
-        name: "Paystack",
-      },
-      {
-        name: "Randomuser API",
-      },
-      {
-        name: "Namecheap Domain",
-      },
-    ],
-    challenge: `As there's not backend engineer on the team, we had to result into using some already built libraries and technologies within our reach. Also, we don't have access to the National databse that houses the voters information, we had to make use of random user and/or random number where applicable in which we believe will give us an avenue to get it adopted and get needed real data and resources to make it available for use by all.`,
-    gains: `It greatly made me to realize that I may not always have access to all the needed resources to execute projects completely which I need to make as such that it doesn't turn into obstacles while working on the project, therefore we had to look for some other alternatives and other possible approaches that we can take to get the job done. Also, my teamwork and team communication skills improved, as well as coding styles and learning, relearning, and unlearning through interactions with others on the team.`,
-    additional: ``
-  },
-  {
     id: 4,
     name: "Scissor",
-    framedImage: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1680001660/portfolio/images/Projects/Yieldvest/Yieldvest-Frame_uugts9.png',
+    framedImage: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690571254/scissor/scissor-framed_f65g94.png',
     image:
-      "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1679304758/portfolio/images/Projects/Project-Yieldvest_xlcytz.png",
+      "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690571255/scissor/scissor-desktop_cclmcj.png",
+    image2: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690581870/scissor/scissor3_d2t2bc.png',  
+    image3: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690581870/scissor/scissor2_kkfwo6.png',  
     link: "https://scissor.netlify.app",
     repo: "https://github.com/rahmlad-aramide/scissor",
     type: "Captstone Project",
@@ -167,12 +89,101 @@ export const TOP = [
     challenge: `I was required to use TypeScript for the project which I've not learned before, so I had to learn the basics of it on the go because of the deadline, even though I started it with React JSX then later converted it to TypeScript TSX. Also, I was required to write a few components and unit testing, I had to learn the basics of it as well so as to be able to make my submission before the deadline.`,
     gains: `It gave me a chance to work within a short timeframe/a tight deadline while ensuring I submit a quality work and a chance to add and improve my skills.`
   },
+  {
+    id: 1,
+    name: "Yieldvest",
+    framedImage: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1680001660/portfolio/images/Projects/Yieldvest/Yieldvest-Frame_uugts9.png',
+    image:
+      "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582284/portfolio/images/Projects/Yieldvest/Yieldvest1_hwoh94.png",
+    image2: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582282/portfolio/images/Projects/Yieldvest/Yieldvest2_xrn2sw.png',  
+    image3: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582282/portfolio/images/Projects/Yieldvest/yieldvest3_phiiog.png',  
+    link: "https://yieldvest.app",
+    repo: "https://github.com/workshopapps/investment.web",
+    type: "Internship Final Project",
+    status: "Completed and still being maintained",
+    desc: "A stock recommendation app built for those dealing with stocks through the use of fundamental analysis to reduce investment risks",
+    detail:
+      "Colaborated with my team during the 2022 cohort of HNG Internship [HNGi9] where I led the Frontend Developers through thick and thin, we were able to build and deploy Yieldvest at the end of the internship.",
+    languages: [
+      {
+        name: "Next JS",
+        url: "images/Assets/next-js-seeklogo.com.svg",
+      },
+      {
+        name: "React",
+        url: "images/Assets/react-seeklogo.com.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        url: "images/Assets/tailwind-css-seeklogo.com.svg",
+      },
+      {
+        name: "Prop Types",
+      },
+      {
+        name: "Unit Testing",
+      },
+      {
+        name: "API",
+        url: "images/Assets/api.svg",
+      },
+    ],
+    challenge: `As the Frontend Team Lead, one of the challenges I faced was managing my team members, especially during times of deviation from the given instruction(s). Additionally, on a personal level, being in an internship program that overlapped with my examination period, the erratic state of power supply, coupled with my PC's damaged battery, presented serious challenges while working on the project.`,
+    gains: `Indeed, after difficulty comes ease. Despite all the hurdles, it later turned out to be something that prepared me for similar obstacles that I may encounter at a later time, because for me to be able to scale through successfully, it simply ignites my spirit of not giving up, which is greatly helpful. Also, teamwork and team management skills improved, as well as coding styles and learning, relearning, and unlearning through interactions with others.`
+  },  
+  {
+    id: 3,
+    name: "PVC-Pipe",
+    framedImage: "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1684583569/portfolio/images/Projects/PVC-Pipe/pvc-pipe-framed_nrzdug.png",
+    image: "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1684583582/portfolio/images/Projects/PVC-Pipe/pvc-pipe-desktop_pgigqr.png",
+    image2: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582155/portfolio/images/Projects/PVC-Pipe/pvc-pipe3_hq1suf.png',  
+    image3: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582155/portfolio/images/Projects/PVC-Pipe/pvc-pipe2_bstch8.png',  
+    link: "https://pvc-pipe.org",
+    repo: "https://github.com/rahmlad-aramide/pvc-pipe",
+    type: "National Problem Solving",
+    status: "MVP Completed, opened to adoption and upgrade",
+    desc: "A permanent voters card tracking and delivery app built for my fellow citizens finding it difficult to get their permanent voters card",
+    detail:
+      "During the last election process for the Nigeria National Election in February 2023, I was informed that my Permanent Voter's Card (PVC) is available for collection whereas I wasn't around then, so for security purpose, it can't be given t someone else on my on my behalf, hence the need for me to come back from travel to get it, had it been that this kind of service is already in existence, it would have been easier for me to get my card delivered to me easily. Likewise, the project was submitted as an internship project delivered by my team while interning with Enoverlab, a team of 2 developers, 2 product managers and 2 designers.",
+    languages: [
+      {
+        name: "React",
+      },
+      {
+        name: "Tailwind CSS",
+      },
+      {
+        name: "Firebase",
+      },
+      {
+        name: "Cloud OTP",
+      },
+      {
+        name: "React Toastify",
+      },
+      {
+        name: "Paystack",
+      },
+      {
+        name: "Randomuser API",
+      },
+      {
+        name: "Namecheap Domain",
+      },
+    ],
+    challenge: `As there's not backend engineer on the team, we had to result into using some already built libraries and technologies within our reach. Also, we don't have access to the National databse that houses the voters information, we had to make use of random user and/or random number where applicable in which we believe will give us an avenue to get it adopted and get needed real data and resources to make it available for use by all.`,
+    gains: `It greatly made me to realize that I may not always have access to all the needed resources to execute projects completely which I need to make as such that it doesn't turn into obstacles while working on the project, therefore we had to look for some other alternatives and other possible approaches that we can take to get the job done. Also, my teamwork and team communication skills improved, as well as coding styles and learning, relearning, and unlearning through interactions with others on the team.`,
+    additional: ``
+  },
+  
   // {
   //   id: 5,
   //   name: "LAUMGA Membapp",
   //   framedImage: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1680001660/portfolio/images/Projects/Yieldvest/Yieldvest-Frame_uugts9.png',
   //   image:
   //     "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1679304758/portfolio/images/Projects/Project-Yieldvest_xlcytz.png",
+  //   image2: '',
+  //   image3: '',
   //   link: "https://yieldvest.app",
   //   repo: "https://github.com/workshopapps",
   //   type: "Internship Final Project",

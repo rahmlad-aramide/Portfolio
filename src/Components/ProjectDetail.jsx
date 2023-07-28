@@ -68,7 +68,7 @@ const ProjectDetail = () => {
             <LazyLoadImage
               effect="blur"
               className=""
-              src={project.image}
+              src={project.image2}
               alt={project.name}
             />
           </div>
@@ -90,7 +90,7 @@ const ProjectDetail = () => {
             <LazyLoadImage
               effect="blur"
               className=""
-              src={project.image}
+              src={project.image3}
               alt={project.name}
             />
           </div>
