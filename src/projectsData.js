@@ -90,48 +90,6 @@ export const TOP = [
     gains: `It gave me a chance to work within a short timeframe/a tight deadline while ensuring I submit a quality work and a chance to add and improve my skills.`
   },
   {
-    id: 1,
-    name: "Yieldvest",
-    framedImage: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1680001660/portfolio/images/Projects/Yieldvest/Yieldvest-Frame_uugts9.png',
-    image:
-      "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582284/portfolio/images/Projects/Yieldvest/Yieldvest1_hwoh94.png",
-    image2: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582282/portfolio/images/Projects/Yieldvest/Yieldvest2_xrn2sw.png',  
-    image3: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582282/portfolio/images/Projects/Yieldvest/yieldvest3_phiiog.png',  
-    link: "https://yieldvest.app",
-    repo: "https://github.com/workshopapps/investment.web",
-    type: "Internship Final Project",
-    status: "Completed and still being maintained",
-    desc: "A stock recommendation app built for those dealing with stocks through the use of fundamental analysis to reduce investment risks",
-    detail:
-      "Colaborated with my team during the 2022 cohort of HNG Internship [HNGi9] where I led the Frontend Developers through thick and thin, we were able to build and deploy Yieldvest at the end of the internship.",
-    languages: [
-      {
-        name: "Next JS",
-        url: "images/Assets/next-js-seeklogo.com.svg",
-      },
-      {
-        name: "React",
-        url: "images/Assets/react-seeklogo.com.svg",
-      },
-      {
-        name: "Tailwind CSS",
-        url: "images/Assets/tailwind-css-seeklogo.com.svg",
-      },
-      {
-        name: "Prop Types",
-      },
-      {
-        name: "Unit Testing",
-      },
-      {
-        name: "API",
-        url: "images/Assets/api.svg",
-      },
-    ],
-    challenge: `As the Frontend Team Lead, one of the challenges I faced was managing my team members, especially during times of deviation from the given instruction(s). Additionally, on a personal level, being in an internship program that overlapped with my examination period, the erratic state of power supply, coupled with my PC's damaged battery, presented serious challenges while working on the project.`,
-    gains: `Indeed, after difficulty comes ease. Despite all the hurdles, it later turned out to be something that prepared me for similar obstacles that I may encounter at a later time, because for me to be able to scale through successfully, it simply ignites my spirit of not giving up, which is greatly helpful. Also, teamwork and team management skills improved, as well as coding styles and learning, relearning, and unlearning through interactions with others.`
-  },  
-  {
     id: 3,
     name: "PVC-Pipe",
     framedImage: "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1684583569/portfolio/images/Projects/PVC-Pipe/pvc-pipe-framed_nrzdug.png",
@@ -175,6 +133,49 @@ export const TOP = [
     gains: `It greatly made me to realize that I may not always have access to all the needed resources to execute projects completely which I need to make as such that it doesn't turn into obstacles while working on the project, therefore we had to look for some other alternatives and other possible approaches that we can take to get the job done. Also, my teamwork and team communication skills improved, as well as coding styles and learning, relearning, and unlearning through interactions with others on the team.`,
     additional: ``
   },
+  {
+    id: 1,
+    name: "Yieldvest",
+    framedImage: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1680001660/portfolio/images/Projects/Yieldvest/Yieldvest-Frame_uugts9.png',
+    image:
+      "https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582284/portfolio/images/Projects/Yieldvest/Yieldvest1_hwoh94.png",
+    image2: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582282/portfolio/images/Projects/Yieldvest/Yieldvest2_xrn2sw.png',  
+    image3: 'https://res.cloudinary.com/dh4rm7b7b/image/upload/v1690582282/portfolio/images/Projects/Yieldvest/yieldvest3_phiiog.png',  
+    link: "https://yieldvest.app",
+    repo: "https://github.com/workshopapps/investment.web",
+    type: "Internship Final Project",
+    status: "Completed and still being maintained",
+    desc: "A stock recommendation app built for those dealing with stocks through the use of fundamental analysis to reduce investment risks",
+    detail:
+      "Colaborated with my team during the 2022 cohort of HNG Internship [HNGi9] where I led the Frontend Developers through thick and thin, we were able to build and deploy Yieldvest at the end of the internship.",
+    languages: [
+      {
+        name: "Next JS",
+        url: "images/Assets/next-js-seeklogo.com.svg",
+      },
+      {
+        name: "React",
+        url: "images/Assets/react-seeklogo.com.svg",
+      },
+      {
+        name: "Tailwind CSS",
+        url: "images/Assets/tailwind-css-seeklogo.com.svg",
+      },
+      {
+        name: "Prop Types",
+      },
+      {
+        name: "Unit Testing",
+      },
+      {
+        name: "API",
+        url: "images/Assets/api.svg",
+      },
+    ],
+    challenge: `As the Frontend Team Lead, one of the challenges I faced was managing my team members, especially during times of deviation from the given instruction(s). Additionally, on a personal level, being in an internship program that overlapped with my examination period, the erratic state of power supply, coupled with my PC's damaged battery, presented serious challenges while working on the project.`,
+    gains: `Indeed, after difficulty comes ease. Despite all the hurdles, it later turned out to be something that prepared me for similar obstacles that I may encounter at a later time, because for me to be able to scale through successfully, it simply ignites my spirit of not giving up, which is greatly helpful. Also, teamwork and team management skills improved, as well as coding styles and learning, relearning, and unlearning through interactions with others.`
+  },  
+  
   
   // {
   //   id: 5,

@@ -3,9 +3,9 @@ import { Link } from "react-router-dom";
 import { ThemeContext } from "../Context";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 import "react-lazy-load-image-component/src/effects/blur.css";
-import AboutImg from "./../images/About_me.jpg";
+import AboutImg from "./../images/About.JPG";
 import Footer from "./Footer";
-import Resume from "../Assets/ABDRAHMAN_ADEBAYO_OLADIMEJI.pdf";
+// import Resume from "../Assets/ABDRAHMAN_ADEBAYO_OLADIMEJI.pdf";
 
 const About = () => {
   const { theme } = useContext(ThemeContext);
@@ -24,12 +24,12 @@ const About = () => {
             I am Abdrahman Adebayo a Frontend Web Developer with a passion for
             creating visually appealing and user-friendly websites.
             <br /> <br />
-            With over 2 years of experience, I have a strong understanding of
-            HTML, CSS, and JavaScript, as well as experience with some of the
-            popular frameworks and libraries like ReactJS, TailwindCSS, VueJS
-            and few others. You can checkout my{" "}
+            With over 3 years of experience, I have a strong understanding of
+            ReactJS with the popular HTML, CSS, and JavaScript, as well as experience
+            with some other frameworks and libraries like TailwindCSS, NextJS, VueJS
+            among others. You can checkout my{" "}
             <Link to="/tech-stack" className="underline">
-              Tech Stack.
+              tech stacks.
             </Link>
             <br /> <br />
             My portfolio showcases a variety of projects that demonstrate my
@@ -43,6 +43,14 @@ const About = () => {
             to collaborate on future projects.
           </p>
           <div className="mx-10 mt-4 mb-10 md:mb-4">
+            <p className=" pt-1 pb-2">
+              In case you would love to check out my resume, you can access it via <a className="underline" href="https://devrahmlad.tech/resume" 
+                rel="noreferrer"
+                target="_blank"
+              >my resume page</a>
+            </p>
+          </div>
+          {/* <div className="mx-10 mt-4 mb-10 md:mb-4">
             <p className=" pt-1 pb-2">
               In case you have a job for me, here's my resume:{" "}
               <a
@@ -59,7 +67,7 @@ const About = () => {
                 </button>
               </a>
             </p>
-          </div>
+          </div> */}
         </div>
         <div className="w-full md:w-1/2">
           <div className="">
