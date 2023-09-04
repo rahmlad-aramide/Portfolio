@@ -6,7 +6,6 @@ export { default as Navbar } from "./Navbar";
 export { default as Pagination } from "./Pagination";
 export { default as Projects } from "./Projects";
 export { default as ProjectDetail } from "./ProjectDetail";
-export { default as Resume } from "./Resume";
 export { default as TopProjects } from "./TopProjects";
 export { default as Skills } from "./Skills";
 export { default as Toggler } from "./Toggler";

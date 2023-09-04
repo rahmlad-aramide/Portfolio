@@ -44,7 +44,7 @@ const About = () => {
           </p>
           <div className="mx-10 mt-4 mb-10 md:mb-4">
             <p className=" pt-1 pb-2">
-              In case you would love to check out my resume, you can access it via <a className="underline" href="https://devrahmlad.tech/resume" 
+              In case you would love to check out my resume, you can access it via <a className="underline" href="https://rahmlad-aramide.github.io/resume" 
                 rel="noreferrer"
                 target="_blank"
               >my resume page</a>
