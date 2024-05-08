@@ -32,22 +32,31 @@ const Skills = () => {
           </div>
           <div className="bg-skills">
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 bg-[#ffffff20] backdrop-blur items-center p-20">
-              <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 w-[90%] h-[90%] flex items-center justify-center">
+            <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 w-[90%] h-[90%] flex items-center justify-center">
                 <LazyLoadImage
                   effect="blur"
                   className="hover:scale-90 transition duration-500"
-                  src="./images/Assets/html5-with-wordmark-color.svg"
-                  title="HTML 5"
-                  alt="HTML 5"
+                  src="./images/Assets/next-js-seeklogo.com.svg"
+                  title="NextJS"
+                  alt="NextJS"
                 />
               </div>
               <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 w-[90%] h-[90%] flex items-center justify-center">
                 <LazyLoadImage
                   effect="blur"
                   className="hover:scale-90 transition duration-500"
-                  src="./images/Assets/css-3-seeklogo.com.svg"
-                  title="CSS 3"
-                  alt="CSS 3"
+                  src="./images/Assets/typescript-seeklogo.svg"
+                  title="TypeScript"
+                  alt="TypeScript"
+                />
+              </div>
+              <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 w-[90%] h-[90%] flex items-center justify-center">
+                <LazyLoadImage
+                  effect="blur"
+                  className="hover:scale-90 transition duration-500"
+                  src="./images/Assets/react-seeklogo.com.svg"
+                  title="ReactJS & React Native"
+                  alt="ReactJS"
                 />
               </div>
               <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 w-[90%] h-[90%] flex items-center justify-center">
@@ -71,29 +80,28 @@ const Skills = () => {
               <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 w-[90%] h-[90%] flex items-center justify-center">
                 <LazyLoadImage
                   effect="blur"
+                  className="hover:scale-90 transition duration-500"
+                  src="./images/Assets/html5-with-wordmark-color.svg"
+                  title="HTML 5"
+                  alt="HTML 5"
+                />
+              </div>
+              <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 w-[90%] h-[90%] flex items-center justify-center">
+                <LazyLoadImage
+                  effect="blur"
+                  className="hover:scale-90 transition duration-500"
+                  src="./images/Assets/css-3-seeklogo.com.svg"
+                  title="CSS 3"
+                  alt="CSS 3"
+                />
+              </div>
+              <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 w-[90%] h-[90%] flex items-center justify-center">
+                <LazyLoadImage
+                  effect="blur"
                   className="hover:scale-90 transition duration-500 w-40"
                   src="./images/Assets/bootstrap-logo.svg"
                   title="Bootstrap"
                   alt="Bootstrap"
-                />
-              </div>
-
-              <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 w-[90%] h-[90%] flex items-center justify-center">
-                <LazyLoadImage
-                  effect="blur"
-                  className="hover:scale-90 transition duration-500"
-                  src="./images/Assets/react-seeklogo.com.svg"
-                  title="ReactJS"
-                  alt="ReactJS"
-                />
-              </div>
-              <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 w-[90%] h-[90%] flex items-center justify-center">
-                <LazyLoadImage
-                  effect="blur"
-                  className="hover:scale-90 transition duration-500"
-                  src="./images/Assets/next-js-seeklogo.com.svg"
-                  title="NextJS"
-                  alt="NextJS"
                 />
               </div>
               <div className="bg-[#ffffff10] backdrop-blur p-4 m-4 w-[90%] h-[90%] flex items-center justify-center">

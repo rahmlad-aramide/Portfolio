@@ -47,7 +47,7 @@ const Footer = () => {
         className={`bg-${theme.background} text-${theme.foreground} my-2 md:my-auto text-right`}
       >
         {" "}
-        Rahmlad &copy; 2022
+        Rahmlad &copy; 2021
       </div>
     </div>
   );

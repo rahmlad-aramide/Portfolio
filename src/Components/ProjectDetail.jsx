@@ -20,11 +20,11 @@ const ProjectDetail = () => {
       style={{ backgroundColor: color.background, color: color.foreground }}
     >
       <div className="min-h-[calc(100vh_-_4rem)] pt-20 md:pt-16 pb-8">
-        <div className="pb-10 flex w-[90%] md:w-[60%] mx-auto flex-col">
+        <div className="pb-10 flex w-full px-4 md:px-0 md:w-[60%] mx-auto flex-col">
           <h1 className="font-black text-center text-4xl mb-2">{project.name}</h1>
           <p className="text-justify">{project.detail}</p>
         </div>
-        <div className="flex flex-col md:flex-row w-[90%] mx-auto">
+        <div className="flex flex-col md:flex-row gap-10 md:gap-5 lg:gap-10 px-4 lg:px-0 lg:w-[90%] mx-auto pb-10">
           <div className="w-full md:w-1/2 grid grid-cols-1 md:grid-cols-2 gap-5">
             <div className="flex flex-col">
               <h2 className="font-bold text-2xl">Stack:</h2>
@@ -57,39 +57,36 @@ const ProjectDetail = () => {
           <div className="w-full md:w-1/2">
             <LazyLoadImage
               effect="blur"
-              className=""
               src={project.image}
               alt={project.name}
             />
           </div>
         </div>
-        <div className="flex flex-col md:flex-row m-4">
+        <div className="flex flex-col md:flex-row gap-10 md:gap-5 lg:gap-10 pb-10 px-4 lg:px-0 lg:w-[90%] mx-auto">
           <div className="w-full md:w-1/2 order-2 md:order-1">
             <LazyLoadImage
               effect="blur"
-              className=""
               src={project.image2}
               alt={project.name}
             />
           </div>
           <div className="w-full md:w-1/2 order-1 md:order-2">
-            <div className="pb-10 flex w-full md:w-[60%] mx-auto md:mx-10 flex-col">
+            <div className="flex w-full mx-auto flex-col">
               <h2 className="font-bold text-2xl mb-2">Challenges Encountered</h2>
-              <p className="max-w-[60ch] text-justify">{project.challenge}</p>
+              <p className="text-justify">{project.challenge}</p>
             </div>
           </div>
         </div>
-        <div className="flex flex-col md:flex-row m-4">
+        <div className="flex flex-col md:flex-row gap-10 md:gap-5 lg:gap-10 px-4 lg:px-0 lg:w-[90%] mx-auto">
           <div className="w-full md:w-1/2">
-            <div className="pb-10 flex w-full md:w-[60%] mx-auto md:mx-10 flex-col">
+            <div className="flex w-full mx-auto flex-col">
               <h2 className="font-bold text-2xl mb-2">Gains from the project</h2>
-              <p className="max-w-[60ch] text-justify">{project.gains}</p>
+              <p className="text-justify">{project.gains}</p>
             </div>
           </div>
           <div className="w-full md:w-1/2">
             <LazyLoadImage
               effect="blur"
-              className=""
               src={project.image3}
               alt={project.name}
             />
