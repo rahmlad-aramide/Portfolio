@@ -24,9 +24,8 @@ const About = () => {
             I am Abdrahman Adebayo a Frontend Web Developer with a passion for
             creating visually appealing and user-friendly websites.
             <br /> <br />
-            With over 3 years of experience, I have a strong understanding of
-            ReactJS with the popular HTML, CSS, and JavaScript, as well as experience
-            with some other frameworks and libraries like TailwindCSS, NextJS, VueJS
+            With over 4 years of experience, I have a strong understanding of
+            ReactJS with a couple of other frameworks and libraries like NextJS, TailwindCSS, React Native, Expo, VueJS
             among others. You can checkout my{" "}
             <Link to="/tech-stack" className="underline">
               tech stacks.
@@ -42,7 +41,7 @@ const About = () => {
             project to fruition. I am excited to share my work with you and hope
             to collaborate on future projects.
           </p>
-          <div className="mx-10 mt-4 mb-10 md:mb-4">
+          <div className="hidden mx-10 mt-4 mb-10 md:mb-4">
             <p className=" pt-1 pb-2">
               In case you would love to check out my resume, you can access it via <a className="underline" href="https://rahmlad-aramide.github.io/resume" 
                 rel="noreferrer"
